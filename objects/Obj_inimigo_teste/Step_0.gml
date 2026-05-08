@@ -1,3 +1,8 @@
+if (scr_inimigo_morte_fade()) return; // Se morreu, para o código
+
+scr_inimigo_controle_visual(); // Cuida do pisca vermelho
+estado(); // Executa a perseguição ou patrulha
+
 #region /////////executa o estado, uma trava de segurança que verifica o que ele deve fazer
 
 if (estado != noone) 
@@ -41,68 +46,14 @@ if (place_meeting(x, y + velv, obj_parede))
 y += velv;
 
 #endregion///////////
+
+// Aplica a direção do desenho
+if (velh != 0) 
+{
+    image_xscale = sign(velh); 
+}
  
  
  #endregion////////////////
 
-#region//////////// bara de vida
 
-var _dt = delta_time / 1000000;
-var _largura_inimigo = bbox_right - bbox_left;
-
-largura_barra_total = _largura_inimigo;
-x_barra = x - (largura_barra_total / 2);
-
-// atraso da barra laranja
-if (hp_secundario > hp)
-{
-    if (delay_barra > 0) 
-	{
-        delay_barra -= _dt; 
-    } 
-	else 
-	{
-        hp_secundario = lerp(hp_secundario, hp, 0.1); 
-        if (hp_secundario - hp < 0.05) hp_secundario = hp;
-    }
-}
-
-
-if (hp <= 0) 
-{
-    instance_destroy(); // O inimigo some quando a vida acaba
-}
-
-#endregion/////
-
-
-
-#region//////// fica vermelho quando atacado 
-
-_dt = delta_time / 1000000;
-
-// piscar vermelho 
-if (hit_timer > 0) 
-{
-    hit_timer -= _dt;
-    image_blend = c_red; // enquanto o timer for maior que 0, fica vermelho
-} 
-else 
-{
-    image_blend = c_white; // Quando zerar, volta ao normal
-}
-
-// barra de vida
-if (hp <= 0) instance_destroy();
-
-
-
-#endregion/////////////////
-
-
-var mata = keyboard_check_pressed(ord("K"))
-
-if  (mata)
-{
-  hp -= 1;	
-}

@@ -28,6 +28,7 @@
     {"id":{"name":"Obj_beretta_92fs","path":"objects/Obj_beretta_92fs/Obj_beretta_92fs.yy",},},
     {"id":{"name":"Obj_inimigo_teste","path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},},
     {"id":{"name":"Obj_jogador","path":"objects/Obj_jogador/Obj_jogador.yy",},},
+    {"id":{"name":"Obj_pai_armas","path":"objects/Obj_pai_armas/Obj_pai_armas.yy",},},
     {"id":{"name":"obj_parede","path":"objects/obj_parede/obj_parede.yy",},},
     {"id":{"name":"Obj_tiro","path":"objects/Obj_tiro/Obj_tiro.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},

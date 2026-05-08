@@ -9,6 +9,7 @@
     {"name":"Obj_beretta_92fs","order":5,"path":"objects/Obj_beretta_92fs/Obj_beretta_92fs.yy",},
     {"name":"Obj_inimigo_teste","order":3,"path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},
     {"name":"Obj_jogador","order":2,"path":"objects/Obj_jogador/Obj_jogador.yy",},
+    {"name":"Obj_pai_armas","order":6,"path":"objects/Obj_pai_armas/Obj_pai_armas.yy",},
     {"name":"Obj_tiro","order":4,"path":"objects/Obj_tiro/Obj_tiro.yy",},
     {"name":"coisas_que_vou_adicionar","order":3,"path":"scripts/coisas_que_vou_adicionar/coisas_que_vou_adicionar.yy",},
     {"name":"Scri_global","order":5,"path":"scripts/Scri_global/Scri_global.yy",},

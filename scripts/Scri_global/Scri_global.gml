@@ -85,6 +85,84 @@ function scr_inimigo_persegue()
 
 #endregion////////////////////////////////////////////////////
 
+
+#region///////////////vida
+
+#region///////barra de vida 
+
+// Função para desenhar a barra de vida 
+function scr_desenhar_barra_vida(_largura = 40, _altura = 5, _distancia_y = 50)
+{
+    if (hp_atual > 0) 
+    {
+        var _x1 = x - (_largura / 2);
+        var _y1 = y - _distancia_y;
+        var _porcentagem = (hp_atual / hp_max) * 100;
+
+        // Desenha fundo preto e barra que muda de verde para laranja
+        draw_healthbar(_x1, _y1, _x1 + _largura, _y1 + _altura, _porcentagem, c_black,c_orange, c_red, 0, true, true);
+    }
+}
+
+// morte 
+function scr_inimigo_morte_fade()
+{
+    if (hp_atual <= 0) 
+    {
+        // Trava o movimento e inicia o sumiço
+        velh = 0;
+        velv = 0;
+        
+        image_alpha -= 0.02; // Velocidade que some
+        
+        if (image_alpha <= 0) 
+        {
+            instance_destroy();
+        }
+        return true; // Retorna true se estiver morrendo
+    }
+    return false; // Retorna false se estiver vivo
+}
+
+
+#endregion/////////////////
+
+
+
+#region////////////dano 
+
+function scr_inimigo_receber_dano(_dano)
+{
+    if (image_alpha >= 1) 
+    {
+        hp_atual -= _dano;
+        image_blend = c_red;
+       
+        hit_timer = 10; 
+    }
+}
+
+function scr_inimigo_controle_visual()
+{
+    
+    if (hit_timer > 0) 
+	{
+        hit_timer--;
+    } 
+	else 
+	{
+        image_blend = c_white;
+    }
+}
+
+#endregion//////////
+
+
+
+#endregion//////////////
+
+
+
 #endregion//////////////////////////////////////////////////////////////////////
 
 

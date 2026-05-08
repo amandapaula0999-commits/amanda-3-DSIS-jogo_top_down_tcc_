@@ -1,3 +1,13 @@
+#region///////////////vida e dano 
+
+hp_max = 10;        
+hp_atual = hp_max;
+
+dano = 3; // Esse objeto tira 3 de vida
+
+#endregion//////////
+
+
 #region///////// variáveis de estado e Tempo
 
 estado = scr_inimigo_parado;
@@ -13,7 +23,7 @@ destino_x = x;
 destino_y = y;
 velh = 0;
 velv = 0;
-vel = 100; // Ajustado para Delta Time
+vel = 100; 
 
 #endregion///////////////
 
@@ -84,16 +94,3 @@ campo_visao = function(_largura, _altura)///////////
 
 
 #endregion///////////
-
-
-#region//////////// barra de vida 
-
-hp_max = 10;       // Vida total
-hp = 10;      // Vida atual
-hp_secundario = hp_max; //  barra diminuindo devagar
-
-largura_barra_total = 0; 
-x_barra = 0;
-delay_barra = 0;
-
-#endregion//////////
