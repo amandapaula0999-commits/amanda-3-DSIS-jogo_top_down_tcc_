@@ -166,6 +166,54 @@ function scr_inimigo_controle_visual()
 #endregion//////////////////////////////////////////////////////////////////////
 
 
+#region///////////////jogador
+
+#region///////////barra de vida
+
+function scr_jogador_receber_dano(_valor)
+{
+    // código a olhar para o Obj_jogador
+    with(Obj_jogador)
+    {
+        if (invulneravel_timer <= 0) 
+        {
+            hp -= _valor;
+            hit_timer = 10;          // Pisca vermelho por 10 frames
+            invulneravel_timer = 60; // 1 segundo de proteção (a 60 FPS)
+        }
+    }
+}
+
+function scr_jogador_controle_timers()
+{
+    // piscar vermelho
+    if (hit_timer > 0) 
+	{
+        hit_timer--;
+        image_blend = c_red;
+    } 
+	else
+	{
+        image_blend = c_white;
+    }
+
+    // invencibilidade
+    if (invulneravel_timer > 0)
+	{
+        invulneravel_timer--;
+        image_alpha = 0.5; // Fica "fantasma" enquanto protegido
+    } 
+	else
+	{
+        image_alpha = 1.0;
+    }
+}
+
+#endregion/////////////////////////
+
+#endregion/////////////////////
+
+
 
 	
 

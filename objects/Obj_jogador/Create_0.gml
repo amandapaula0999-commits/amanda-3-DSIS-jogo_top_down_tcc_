@@ -9,4 +9,4 @@ lado = 0;
 hp_max = 10;
 hp = 10;
 hit_timer = 0; // piscar quando levar dano
-
+invulneravel_timer = 0;

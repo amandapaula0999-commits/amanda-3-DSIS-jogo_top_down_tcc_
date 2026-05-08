@@ -130,7 +130,10 @@ else
 #endregion-///////////
 
 // morte do jogador
+
+scr_jogador_controle_timers();
+
 if (hp <= 0) 
 {
-    game_restart(); // reinicia o jogo se o jogador morrer
+    room_restart();
 }
