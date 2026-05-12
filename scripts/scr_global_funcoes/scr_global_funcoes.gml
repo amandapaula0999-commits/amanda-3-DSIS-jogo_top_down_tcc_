@@ -107,23 +107,26 @@ function scr_desenhar_barra_vida(_largura = 40, _altura = 5, _distancia_y = 50)
 // morte 
 function scr_inimigo_morte_fade()
 {
-    if (hp_atual <= 0) 
+    // Verifica se a variável hp_atual existe 
+    if (variable_instance_exists(id, "hp_atual")) 
     {
-		mask_index = -1;//remove a colisão do objeto
-		image_speed = 0; // Para a animação
-        // Trava o movimento e inicia o sumiço
-        velh = 0;
-        velv = 0;
-        
-        image_alpha -= 0.02; // Velocidade que some
-        
-        if (image_alpha <= 0) 
+        if (hp_atual <= 0) 
         {
-            instance_destroy();
+            mask_index = -1;
+            image_speed = 0;
+            velh = 0;
+            velv = 0;
+            
+            image_alpha -= 0.02;
+            
+            if (image_alpha <= 0) 
+            {
+                instance_destroy(); // destrói se tiver HP e chegar a 0
+            }
+            return true;
         }
-        return true; // Retorna true se estiver morrendo
     }
-    return false; // Retorna false se estiver vivo
+    return false;
 }
 
 
@@ -133,16 +136,20 @@ function scr_inimigo_morte_fade()
 
 #region////////////dano 
 
-function scr_inimigo_receber_dano(_dano)
+function scr_inimigo_receber_dano(_dano) 
 {
-    if (image_alpha >= 1) 
+    // Verificamos se o inimigo ainda tem vida antes de tirar dano
+    if (hp_atual > 0) 
     {
         hp_atual -= _dano;
         image_blend = c_red;
-       
-        hit_timer = 10; 
+        hit_timer = 10;
+        
+        // Debug para você ter certeza que o código rodou
+        show_debug_message("Inimigo atingido! Vida atual: " + string(hp_atual));
     }
 }
+
 
 function scr_inimigo_controle_visual()
 {

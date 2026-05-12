@@ -3,7 +3,7 @@ if (scr_inimigo_morte_fade()) return; // Se morreu, para o código
 scr_inimigo_controle_visual(); // Cuida do pisca vermelho
 estado(); // Executa a perseguição ou patrulha
 
-#region /////////executa o estado, uma trava de segurança que verifica o que ele deve fazer
+#region ///////////EXECUTA O ESTADO(TRAVA DE SEGURANÇA)
 
 if (estado != noone) 
 {

@@ -1,4 +1,4 @@
-#region///////////////vida e dano 
+#region/////////////// VARIAVEIS VIDA E DANO 
 
 hp_max = 10;        
 hp_atual = hp_max;
@@ -8,7 +8,7 @@ dano = 3; // Esse objeto tira 3 de vida
 #endregion//////////
 
 
-#region///////// variáveis de estado e Tempo
+#region///////// VARIAVEIS ESTADO E TEMPO 
 
 estado = scr_inimigo_parado;
 tempo_estado = 2; 
@@ -17,7 +17,7 @@ hit_timer = 0; // Controla quanto tempo ele fica vermelho, apos dano
 
 #endregion////////////////
 
-#region///// variáveis de movimento
+#region///// VARIAVEIS DE MOVIMENTAÇÃO
 
 destino_x = x;
 destino_y = y;
@@ -27,7 +27,7 @@ vel = 100;
 
 #endregion///////////////
 
-#region//////////variáveis de desenho
+#region////////// VARIAVEIS DE DESENHO
 
 sprite = sprite_index;
 yscale = 1;
@@ -42,8 +42,9 @@ larg_visao = 150;
 #region MÉTODOS: MUDA DE ESTADO, TEMPO DE MEMORIA, DESENHA A SPRITE(SOMBRA E sprite) E O CAMPO DE VISÃO
 
 tempo_memoria = 0;
+///////////////////////
 
-muda_estado = function(_lista_estados)////////
+muda_estado = function(_lista_estados)
 {
     var _dt = delta_time / 1000000;
     tempo_estado -= _dt;
@@ -53,26 +54,31 @@ muda_estado = function(_lista_estados)////////
         estado = _lista_estados[irandom(array_length(_lista_estados) - 1)];
         tempo_estado = irandom_range(2, 5); 
     }
-}/////////////
+}
+/////////////////////
 
 
 
 desenha_sprite = function() //////////
 {
     draw_sprite_ext(sprite, image_index, x, y, xscale, yscale, 0, image_blend, image_alpha);
-}/////////
+}
 
+/////////////////////////////
 
-desenha_sombra = function() ////////
+///////////////////////////////
+desenha_sombra = function() 
 {
     draw_sprite_ext(Spr_sombra, 0, x, y + 15, .4, .4, 0, c_white, .25);
-}///////////
+}
+
+/////////////////////////////////
 
 
-
-campo_visao = function(_largura, _altura)///////////
+///////////////////////
+campo_visao = function(_largura, _altura)
 {
-    // TRAVA: Se já estiver perseguindo, não executa o código abaixo
+    // Se já estiver perseguindo, não executa o código abaixo
     if (estado == scr_inimigo_persegue) return noone;
 
     var _x1 = x;
@@ -90,7 +96,9 @@ campo_visao = function(_largura, _altura)///////////
     }
     
     return _alvo;
-}/////////////
+}
+
+/////////////////////////
 
 
 #endregion///////////

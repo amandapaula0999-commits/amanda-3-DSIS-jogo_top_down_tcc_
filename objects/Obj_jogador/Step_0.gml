@@ -2,7 +2,7 @@ depth = -bbox_bottom /// o personajen fica na fente
 
 
 
-#region ////////movimentação do jogador 
+#region ////////  MOVIMENTAÇÃO DO JOGADOR
 
 
 //define os vetores de entrada.
@@ -39,7 +39,7 @@ else
 
 
 
-#region////////colisão horizontal com um obj solido como uma parede
+#region//////// COLISÃO HORISONTAL
 
 var _sign_h = sign(velh);
 
@@ -61,7 +61,7 @@ repeat(abs(velh)) {
 
 
 
-#region////// colisão vertical com um obj solido como uma parede
+#region////// COLISÃO VERTICAL
 
 var _sign_v = sign(velv);
 
@@ -81,7 +81,7 @@ repeat(abs(velv)) {
 
 
 
-#region//////////// troca de sprites
+#region//////////// TROCA DE SPRITES 
 
 // para qual lado ele está 
 if (velh > 0) lado = 2; // Direita
@@ -110,7 +110,7 @@ else
 #endregion/////////////////
 
 
-#region///////////// vica vermelho quando leva dano 
+#region///////////// FICA VERMELHO QUANDO LEVA DANO
 
 
 var _dt = delta_time / 1000000;
@@ -129,7 +129,7 @@ else
 
 #endregion-///////////
 
-// morte do jogador
+// MORTE DO JOGADOR
 
 scr_jogador_controle_timers();
 

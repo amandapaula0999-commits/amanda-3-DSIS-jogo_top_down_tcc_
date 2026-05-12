@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Scri_global",
+  "%Name":"scr_global_funcoes",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Scri_global",
+  "name":"scr_global_funcoes",
   "parent":{
     "name":"jogo top_daw tcc",
     "path":"jogo top_daw tcc.yyp",
