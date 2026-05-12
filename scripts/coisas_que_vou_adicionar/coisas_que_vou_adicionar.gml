@@ -14,3 +14,4 @@
 ///// mais uma arma 
 ////// não ser inpurado para dentro das paredes 
 ////// puchar o sistema de vida do inimigo e jogador para um script
+////// o inimigo desaparese de vagar quando morre (v)

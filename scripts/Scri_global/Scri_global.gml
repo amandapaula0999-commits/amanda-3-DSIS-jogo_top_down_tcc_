@@ -109,6 +109,8 @@ function scr_inimigo_morte_fade()
 {
     if (hp_atual <= 0) 
     {
+		mask_index = -1;//remove a colisão do objeto
+		image_speed = 0; // Para a animação
         // Trava o movimento e inicia o sumiço
         velh = 0;
         velv = 0;
