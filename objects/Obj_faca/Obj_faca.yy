@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_pai_armas",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_faca",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_pai_armas",
+  "name":"Obj_faca",
   "overriddenProperties":[],
   "parent":{
-    "name":"arma de longa distancia",
-    "path":"folders/sprites/arma de longa distancia.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_faca",
+    "path":"sprites/Spr_faca/Spr_faca.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
