@@ -1,6 +1,6 @@
 #region/////////////// VARIAVEIS VIDA E DANO 
 
-hp_max = 10;        
+hp_max = 20;   
 hp_atual = hp_max;
 
 dano = 3; // Esse objeto tira 3 de vida

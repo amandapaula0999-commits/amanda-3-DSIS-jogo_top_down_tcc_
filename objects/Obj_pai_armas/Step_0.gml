@@ -33,18 +33,31 @@ if (daley_tiro > 0) daley_tiro -= _dt;
 
 #endregion/////////
 
-#region///REGUE O MOUSE 
+
+
+#region/// SEGUE O MOUSE 
 
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
-if (image_angle > 90 && image_angle < 270)
-{
-    image_yscale = -1; // Inverte para cima quando aponta para a esquerda
-} 
-else
-{
-    image_yscale = 1;
+// Só inverte se a arma permitir (ela so permit se no criar da arma não tiver pode_inverter = false;
+///se tiver ela não permite)
 
+if (pode_inverter) 
+{
+    if (image_angle > 90 && image_angle < 270)
+    {
+        image_yscale = -1; 
+    }
+    else
+    {
+        image_yscale = 1;
+    }
 }
+else 
+{
+    // Se não  mantém sempre normal
+    image_yscale = 1;
+}
+
 
 #endregion///////////
