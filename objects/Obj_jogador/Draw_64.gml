@@ -8,9 +8,9 @@ var _y2 = 55;
 var _porcentagem = (hp / hp_max) * 100;
 
 // Desenha a barra de vida
-// Cores: Fundo Preto, Barra Vazia Vermelha, Barra Cheia vermelho claro
+
 draw_healthbar(_x1, _y1, _x2, _y2, _porcentagem, c_black, c_maroon,c_red, 0, true, true);
 
-// Desenha o texto do HP em cima da barra
+// Desenha o texto em cima da barra
 draw_set_color(c_white);
 draw_text(_x1, _y1 - 20, "VIDA: " + string(hp));

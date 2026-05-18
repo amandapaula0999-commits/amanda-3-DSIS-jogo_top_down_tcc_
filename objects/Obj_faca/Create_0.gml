@@ -1,11 +1,8 @@
-event_inherited(); // Puxa as variáveis do pai
-pode_inverter = false; // A faca NÃO vai inverter o sprite
+event_inherited(); 
 
-// Status da Faca
-dano = 3;
-pode_atacar = true;
+dano = 4;
 
-// Variáveis de Animação
+// Controle da animação Baseado em frames
+fase_ataque = 0; 
 atacando = false;
-angulo_base = 0;   // Ângulo para onde o mouse aponta
-timer_ataque = 0;
+angulo_base = 0;

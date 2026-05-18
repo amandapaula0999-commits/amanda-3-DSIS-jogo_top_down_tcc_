@@ -1,7 +1,7 @@
-event_inherited(); // Puxa as variáveis do pai
+event_inherited(); // Variáveis do pai
 
 
 dano = 2;
-espera_tiro = 0.2;       // Atira rápido (5 tiros por segundo)
-velocidade_tiro = 600;   // Bala rápida
+espera_tiro = 0.33;       //3 tiros por segundo (1/3=0,33 )
+velocidade_tiro = 600;   // Velocidade do tiro
 objeto_tiro = Obj_tiro;  // Usa o objeto de bala comum

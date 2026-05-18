@@ -1,11 +1,11 @@
 if (scr_inimigo_morte_fade()) return; // Se morreu, para o código
 
-scr_inimigo_controle_visual(); // Cuida do pisca vermelho
+scr_inimigo_controle_visual(); // Pisca vermelho
 estado(); // Executa a perseguição ou patrulha
 
 #region ///////////EXECUTA O ESTADO(TRAVA DE SEGURANÇA)
 
-if (estado != noone) 
+if (estado != noone) //se tever aguma coisa para fazer faça 
 {
     estado();
 }
@@ -19,9 +19,9 @@ depth = -bbox_bottom;
 
 #region ////////// Colisão Horizontal
 
-if (place_meeting(x + velh, y, obj_parede))
+if (place_meeting(x + velh, y, obj_parede))// Eu vou bater ?
 {
-    while (!place_meeting(x + sign(velh), y, obj_parede))
+    while (!place_meeting(x + sign(velh), y, obj_parede))//Sim, para as poucos ate encostar na parede 
 	{
         x += sign(velh);
     }

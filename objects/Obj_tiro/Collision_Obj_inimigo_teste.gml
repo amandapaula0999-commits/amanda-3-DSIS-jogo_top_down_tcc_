@@ -1,4 +1,4 @@
-// Evento de Colisão do Obj_tiro com o Obj_inimigo_
+// Colisão do Obj_tiro com o Obj_inimigo_
 if (instance_exists(other))
 {
     

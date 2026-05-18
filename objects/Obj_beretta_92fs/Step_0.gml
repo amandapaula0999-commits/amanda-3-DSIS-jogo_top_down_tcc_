@@ -1,4 +1,4 @@
-event_inherited(); // Chama o pai faz (pegar, seguir, mirar)
+event_inherited(); // (pegar, seguir, mirar)
 
 // Só atira se estiver na mão
 if (na_mao && mouse_check_button(mb_left) && daley_tiro <= 0)

@@ -3,7 +3,7 @@
 hp_max = 20;   
 hp_atual = hp_max;
 
-dano = 3; // Esse objeto tira 3 de vida
+dano = 3;
 
 #endregion//////////
 
@@ -13,7 +13,7 @@ dano = 3; // Esse objeto tira 3 de vida
 estado = scr_inimigo_parado;
 tempo_estado = 2; 
 timer_estado = 0;
-hit_timer = 0; // Controla quanto tempo ele fica vermelho, apos dano
+hit_timer = 0; // Controla quanto tempo ele fica vermelho
 
 #endregion////////////////
 
@@ -30,7 +30,7 @@ vel = 100;
 #region////////// VARIAVEIS DE DESENHO
 
 sprite = sprite_index;
-yscale = 1;
+yscale = 1;/// trocar o lado 
 xscale = 1;
 larg_visao = 150;
 

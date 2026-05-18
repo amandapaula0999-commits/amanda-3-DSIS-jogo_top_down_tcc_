@@ -1,25 +1,25 @@
-depth = -bbox_bottom /// o personajen fica na fente 
+depth = -bbox_bottom /// o personagen fica na fente 
 
 
 
 #region ////////  MOVIMENTAÇÃO DO JOGADOR
 
 
-//define os vetores de entrada.
+//Define os vetores.
 var vetor_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var vetor_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
-//velocidade base
+//Velocidade base
 var velocidade = max_vel;
 
-//calculo hipotenusa
+//Calculo de movimentação(hipotenusa_)
 var qud_hip = (vetor_x * vetor_x) + (vetor_y * vetor_y);
 
 if (qud_hip > 0)
 {
     var hip = sqrt(qud_hip);
 
-    //divide pela hipotenusa
+    //Divide pela hipotenusa
     vetor_x /= hip;
     vetor_y /= hip;
 
