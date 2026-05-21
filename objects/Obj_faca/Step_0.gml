@@ -29,7 +29,7 @@ if (!atacando)
             // Cria a caixa de dano na frente da faca
 			
 			var _dist = 30; // Diminuír para ficar mais perto da ponta	
-			var _x = x + lengthdir_x(_dist, image_angle) + 5 ; //-esquerda +direita 
+			var _x = x + lengthdir_x(_dist, image_angle) +10 ; //-esquerda +direita 
 			var _y = y + lengthdir_y(_dist, image_angle) - 2; // -sobe e +desse a caixa
             
 			var _inst = instance_create_layer(_x, _y, "armas", Obj_rit);
