@@ -1,57 +1,57 @@
+//(Pegar, Largar, Seguir Jogador, Intervalo de Tiro)
+event_inherited(); 
 
-event_inherited(); ///pai
-
-// se estiver na mâo 
+// Se não estiver na mão, não faz nada
 if (!na_mao) return; 
 
-#region /////////ATACAR 
+
+#region /////////ATAQUE 
 
 if (!atacando) 
 {
-    // Segue o mouse
-    image_angle = point_direction(x, y, mouse_x, mouse_y);
-
-    if (mouse_check_button_pressed(mb_right)) 
-    {
-        atacando = true;
-        fase_ataque = 0;
-        angulo_base = image_angle;
-    }
-} 
-else 
-{
-    // Aumenta a fase: 1 dividido por 240 quadros (0.27 segundos) (6*60=360.   1/360=0.00277....)
-    fase_ataque += 0.06; // Velocidade para fazer o ataque 
-
-    // Cálculo do Arco de 60 graus usando Seno
-    // O dsin(fase * 180) faz a faca ir até 60 e voltar para 0 
-	
-	
-    var _arco = dsin(fase_ataque * 180) * 60; //dsin: calcula o seno (graus) movimento de arco
-    image_angle = angulo_base + _arco;
-	
-#endregion////////////////////
-
-#region////DANO 
+    // Segue o mouse e usa o sprite parado
     
-	
-    var _inimigo = instance_place(x, y, Obj_inimigo_teste);
-    if (_inimigo != noone) 
+    sprite_index = object_get_sprite(Obj_faca);
+	image_angle = point_direction(x, y, mouse_x, mouse_y);
+
+    // ataque
+    if (mouse_check_button_pressed(mb_left) && daley_tiro <= 0) 
     {
-        with(_inimigo) {
-            scr_inimigo_receber_dano(other.dano);
+        if (instance_number(Obj_rit) < 2) // Limite de 2 caixas
+        {
+            atacando = true;
+            sprite_index = Spr_ataque_espada;
+            image_index = 0;
+            
+            // Define o intervalo (delay) usando a variável que já existe no Pai
+            daley_tiro = 1.5; 
+
+            // Cria a caixa de dano na frente da faca
+			
+			var _dist = 30; // Diminuír para ficar mais perto da ponta	
+			var _x = x + lengthdir_x(_dist, image_angle) + 5 ; //-esquerda +direita 
+			var _y = y + lengthdir_y(_dist, image_angle) - 2; // -sobe e +desse a caixa
+            
+			var _inst = instance_create_layer(_x, _y, "armas", Obj_rit);
+			
+			//caixa girar junto com a faca
+			_inst.image_angle = image_angle;
         }
-    }
-	
-#endregion//////////
-
-#region///VOLTA OU NORMAL
-
-    if (fase_ataque >= 1) 
-    {
-        atacando = false;
-        fase_ataque = 0;
     }
 }
 
-#endregion//////////////
+
+#endregion//////////////////////
+
+
+else ///////NÃO ESTA SEMDO LIDA NO MOMENTO ARRUMMAR !!!!!!!!!!!!!
+{
+   //espera terminar a animação par continuar seguindo o mouse 
+   
+    if (image_index >= image_number - 1) 
+    {
+        atacando = false;
+        sprite_index = object_get_sprite(Obj_faca);
+
+    }
+}

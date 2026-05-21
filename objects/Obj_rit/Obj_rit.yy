@@ -1,21 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_faca",
+  "%Name":"Obj_rit",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_inimigo_teste","path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_faca",
+  "name":"Obj_rit",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"Obj_pai_armas",
-    "path":"objects/Obj_pai_armas/Obj_pai_armas.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,9 +32,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_faca",
-    "path":"sprites/Spr_faca/Spr_faca.yy",
+    "name":"Spr_rit",
+    "path":"sprites/Spr_rit/Spr_rit.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

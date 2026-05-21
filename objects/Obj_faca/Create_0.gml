@@ -1,8 +1,10 @@
 event_inherited(); 
 
+// Atributos da arma
 dano = 4;
 
-// Controle da animação Baseado em frames
-fase_ataque = 0; 
+
+// Controle de Estado
 atacando = false;
-angulo_base = 0;
+
+

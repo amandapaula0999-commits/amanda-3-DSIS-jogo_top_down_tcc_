@@ -5,7 +5,7 @@ estado(); // Executa a perseguição ou patrulha
 
 #region ///////////EXECUTA O ESTADO(TRAVA DE SEGURANÇA)
 
-if (estado != noone) //se tever aguma coisa para fazer faça 
+if (estado != noone) //se tem aguma coisa para fazer faça 
 {
     estado();
 }

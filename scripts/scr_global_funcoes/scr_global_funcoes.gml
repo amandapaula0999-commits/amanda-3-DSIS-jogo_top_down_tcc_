@@ -133,7 +133,7 @@ function scr_inimigo_morte_fade()
 
 
 
-#region////////////dano 
+#region////////////dano DEBUG
 
 function scr_inimigo_receber_dano(_dano) 
 {
@@ -144,7 +144,7 @@ function scr_inimigo_receber_dano(_dano)
         image_blend = c_red;
         hit_timer = 10;
         
-        // Debug para você ter certeza que o código rodou
+        // DEBUG para você ter certeza que o código rodou!!!!
         show_debug_message("Inimigo atingido! Vida atual: " + string(hp_atual));
     }
 }
