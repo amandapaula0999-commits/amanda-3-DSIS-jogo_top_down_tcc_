@@ -5,12 +5,12 @@
 ////// mapa (esse é o ultimo)
 ///// itens que dão abilidades 
 ///// vida inimigo e jogador (v)
-/////nunição 
+/////nunição (v)
 ///// corrida 
 //// soltar e pegar arma (v)
 //// trca de sprits inimigo gogador (v)
-///// não acumula inimigos atrz de você 
-////// uma inteliguencia nos inimigos melhor
+///// não acumula inimigos atrz de você		
+////// uma inteliguencia nos inimigos melhor (isso vai ser dificil)(mais para frente)
 ///// mais uma arma (v)
 ////// não ser inpurado para dentro das paredes 
 ////// puchar o sistema de vida do inimigo e jogador para um script (v)
