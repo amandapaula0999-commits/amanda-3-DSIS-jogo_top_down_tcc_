@@ -17,4 +17,5 @@ tempo_recarga_alvo = 2.5;
 timer_recarga = 0; // Acumulador
 recarregando = false;
 
+
 recarga_tiro = 0;      // Acumulador para o tiro
