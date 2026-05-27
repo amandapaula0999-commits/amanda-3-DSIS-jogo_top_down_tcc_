@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"arma de longa distancia",
-    "path":"folders/sprites/arma de longa distancia.yy",
+    "name":"armas",
+    "path":"folders/sprites/armas.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -101,4 +101,5 @@ campo_visao = function(_largura, _altura)
 /////////////////////////
 
 
-#endregion///////////
+#endregion//////////
+

@@ -1,8 +1,8 @@
+// Aumenta o contador a cada frame
+tempo_de_vida += 1;
 
-with(other) 
+// Se a caixa existir por mais de 5 frames (quase instantâneo), ela se destrói
+if (tempo_de_vida > 5) 
 {
-    scr_inimigo_receber_dano(4);
-}
-
-// Destrói imediatamente após encostar
-instance_destroy();
+    instance_destroy();
+};

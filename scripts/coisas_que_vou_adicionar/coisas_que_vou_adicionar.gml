@@ -18,3 +18,7 @@
 
 
 /// para deichar o obj invisivel é so desmarcar a opicão no mesmo !!!!
+
+
+//// para adicionar a roleta de armas e itens tenho que fazer os itens usaveis as balas e kit de vida a perta E para pegar e md_right para usar 
+/// uma trava para arma poder atirar so quando tem balas 

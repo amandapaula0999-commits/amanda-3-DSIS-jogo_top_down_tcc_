@@ -12,7 +12,8 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Objetos","folderPath":"folders/Objetos.yy","name":"Objetos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"arma de longa distancia","folderPath":"folders/sprites/arma de longa distancia.yy","name":"arma de longa distancia","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"armas","folderPath":"folders/sprites/armas.yy","name":"armas","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"itens","folderPath":"folders/sprites/itens.yy","name":"itens","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"inimigos","folderPath":"folders/sprites/inimigos.yy","name":"inimigos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"jogador","folderPath":"folders/sprites/jogador.yy","name":"jogador","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -26,6 +27,7 @@
   "name":"jogo top_daw tcc",
   "resources":[
     {"id":{"name":"Obj_beretta_92fs","path":"objects/Obj_beretta_92fs/Obj_beretta_92fs.yy",},},
+    {"id":{"name":"Obj_cura_vida","path":"objects/Obj_cura_vida/Obj_cura_vida.yy",},},
     {"id":{"name":"Obj_faca","path":"objects/Obj_faca/Obj_faca.yy",},},
     {"id":{"name":"Obj_inimigo_teste","path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},},
     {"id":{"name":"Obj_jogador","path":"objects/Obj_jogador/Obj_jogador.yy",},},
@@ -38,6 +40,7 @@
     {"id":{"name":"scr_global_funcoes","path":"scripts/scr_global_funcoes/scr_global_funcoes.yy",},},
     {"id":{"name":"Spr_ataque_espada","path":"sprites/Spr_ataque_espada/Spr_ataque_espada.yy",},},
     {"id":{"name":"Spr_beretta_92fs","path":"sprites/Spr_beretta_92fs/Spr_beretta_92fs.yy",},},
+    {"id":{"name":"Spr_cura_vida","path":"sprites/Spr_cura_vida/Spr_cura_vida.yy",},},
     {"id":{"name":"Spr_faca","path":"sprites/Spr_faca/Spr_faca.yy",},},
     {"id":{"name":"Spr_inimigo_andando","path":"sprites/Spr_inimigo_andando/Spr_inimigo_andando.yy",},},
     {"id":{"name":"Spr_inimigo_parado","path":"sprites/Spr_inimigo_parado/Spr_inimigo_parado.yy",},},
