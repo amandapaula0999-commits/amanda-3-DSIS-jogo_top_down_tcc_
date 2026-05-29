@@ -3,8 +3,8 @@
     {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
     {"name":"sprites","order":1,"path":"folders/sprites.yy",},
     {"name":"armas","order":2,"path":"folders/sprites/armas.yy",},
-    {"name":"itens","order":6,"path":"folders/sprites/itens.yy",},
     {"name":"inimigos","order":1,"path":"folders/sprites/inimigos.yy",},
+    {"name":"itens","order":6,"path":"folders/sprites/itens.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Obj_beretta_92fs","order":4,"path":"objects/Obj_beretta_92fs/Obj_beretta_92fs.yy",},

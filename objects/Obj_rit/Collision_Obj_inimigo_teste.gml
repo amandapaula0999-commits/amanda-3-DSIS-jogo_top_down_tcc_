@@ -1,8 +1,7 @@
-// Aumenta o contador a cada frame
-tempo_de_vida += 1;
-
-// Se a caixa existir por mais de 5 frames (quase instantâneo), ela se destrói
-if (tempo_de_vida > 5) 
+// Evento de COLISÃO do Obj_rit com Obj_inimigo_teste
+with(other) 
 {
-    instance_destroy();
-};
+    hp_atual -= 4; // Use hp_atual para bater com o nome que está no Create do inimigo
+}
+
+instance_destroy(); // Destrói o hit de ataque

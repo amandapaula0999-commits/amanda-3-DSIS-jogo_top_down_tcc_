@@ -1,7 +1,7 @@
-tempo_de_vida += 1;// contador 
+tempo_de_vida += 1;
 
-
-// Se ele existir por menos de 6 frames some
-if (tempo_de_vida > 6) { 
+// Se ele existir por mais de 6 frames, ele se destrói
+if (tempo_de_vida > 6) 
+{ 
     instance_destroy(); 
 }

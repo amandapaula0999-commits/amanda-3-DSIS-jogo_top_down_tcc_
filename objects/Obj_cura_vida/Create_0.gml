@@ -1,0 +1,1 @@
+peguei = false; // Se o jogador já coletou este kit
