@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Obj_cura_vida",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Obj_cura_vida",
   "overriddenProperties":[],
