@@ -17,6 +17,7 @@
     {"name":"Obj_tiro","order":3,"path":"objects/Obj_tiro/Obj_tiro.yy",},
     {"name":"coisas_que_vou_adicionar","order":3,"path":"scripts/coisas_que_vou_adicionar/coisas_que_vou_adicionar.yy",},
     {"name":"scr_global_funcoes","order":4,"path":"scripts/scr_global_funcoes/scr_global_funcoes.yy",},
+    {"name":"scr_itens_curaEbalas","order":6,"path":"scripts/scr_itens_curaEbalas/scr_itens_curaEbalas.yy",},
     {"name":"Spr_ataque_espada","order":3,"path":"sprites/Spr_ataque_espada/Spr_ataque_espada.yy",},
     {"name":"Spr_beretta_92fs","order":1,"path":"sprites/Spr_beretta_92fs/Spr_beretta_92fs.yy",},
     {"name":"Spr_faca","order":2,"path":"sprites/Spr_faca/Spr_faca.yy",},

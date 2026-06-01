@@ -38,6 +38,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"coisas_que_vou_adicionar","path":"scripts/coisas_que_vou_adicionar/coisas_que_vou_adicionar.yy",},},
     {"id":{"name":"scr_global_funcoes","path":"scripts/scr_global_funcoes/scr_global_funcoes.yy",},},
+    {"id":{"name":"scr_itens_curaEbalas","path":"scripts/scr_itens_curaEbalas/scr_itens_curaEbalas.yy",},},
     {"id":{"name":"Spr_ataque_espada","path":"sprites/Spr_ataque_espada/Spr_ataque_espada.yy",},},
     {"id":{"name":"Spr_beretta_92fs","path":"sprites/Spr_beretta_92fs/Spr_beretta_92fs.yy",},},
     {"id":{"name":"Spr_cura_vida","path":"sprites/Spr_cura_vida/Spr_cura_vida.yy",},},
