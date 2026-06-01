@@ -81,7 +81,7 @@ repeat(abs(velv)) {
 
 
 
-#region//////////// TROCA DE SPRITES 
+#region//////////// TROCA DE SPRITES
 
 // para qual lado ele está 
 if (velh > 0) lado = 2; // Direita
@@ -110,6 +110,7 @@ else
 #endregion/////////////////
 
 
+
 #region///////////// FICA VERMELHO QUANDO LEVA DANO
 
 
@@ -128,6 +129,30 @@ else
 
 
 #endregion-///////////
+
+
+#region/////////////////TEMPO PARA SER CURADO 
+
+// Diminu o tempo real
+if (cooldown_cura > 0) 
+{
+    cooldown_cura -= delta_time / 1000000; 
+} 
+else
+{
+    cooldown_cura = 0;
+}
+
+// DIMINUI O TIMER DA FALA 
+if (timer_fala > 0) {
+    timer_fala -= 1; // Diminui 1 frame 
+} 
+else
+{
+    texto_fala = ""; // Quando chega a 0, apaga o texto da tela!
+}
+
+#endregion/////////////////
 
 // MORTE DO JOGADOR
 
