@@ -36,5 +36,5 @@
     "path":"sprites/Spr_rit/Spr_rit.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
