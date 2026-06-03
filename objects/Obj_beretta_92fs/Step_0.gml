@@ -1,6 +1,6 @@
 event_inherited(); 
 
-var _dt = delta_time / 1000000;
+var _dt = delta_time / 1000000;// tempo 
 
 // diminui os dois taimes 
 if (daley_tiro > 0)   daley_tiro -= _dt;   // Tempo entre balas (0.33) esta no pai 
