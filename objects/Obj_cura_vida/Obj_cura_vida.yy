@@ -10,8 +10,8 @@
   "name":"Obj_cura_vida",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"munição e cura",
+    "path":"folders/Objetos/munição e cura.yy",
   },
   "parentObjectId":null,
   "persistent":false,

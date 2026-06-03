@@ -1,15 +1,16 @@
 {
   "FolderOrderSettings":[
     {"name":"Objetos","order":2,"path":"folders/Objetos.yy",},
+    {"name":"armas","order":10,"path":"folders/Objetos/armas.yy",},
+    {"name":"munição e cura","order":9,"path":"folders/Objetos/munição e cura.yy",},
     {"name":"sprites","order":1,"path":"folders/sprites.yy",},
     {"name":"armas","order":2,"path":"folders/sprites/armas.yy",},
     {"name":"inimigos","order":1,"path":"folders/sprites/inimigos.yy",},
-    {"name":"itens","order":6,"path":"folders/sprites/itens.yy",},
+    {"name":"itens","order":5,"path":"folders/sprites/itens.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Obj_beretta_92FS","order":4,"path":"objects/Obj_beretta_92FS/Obj_beretta_92FS.yy",},
-    {"name":"Obj_cura_vida","order":7,"path":"objects/Obj_cura_vida/Obj_cura_vida.yy",},
-    {"name":"Obj_faca","order":5,"path":"objects/Obj_faca/Obj_faca.yy",},
+    {"name":"Obj_cura_vida","order":1,"path":"objects/Obj_cura_vida/Obj_cura_vida.yy",},
+    {"name":"Obj_faca","order":1,"path":"objects/Obj_faca/Obj_faca.yy",},
     {"name":"Obj_inimigo_teste","order":2,"path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},
     {"name":"Obj_jogador","order":1,"path":"objects/Obj_jogador/Obj_jogador.yy",},
     {"name":"Obj_pai_armas","order":5,"path":"objects/Obj_pai_armas/Obj_pai_armas.yy",},
@@ -26,6 +27,7 @@
     {"name":"Spr_movendo_cima","order":5,"path":"sprites/Spr_movendo_cima/Spr_movendo_cima.yy",},
     {"name":"Spr_movendo_direita","order":7,"path":"sprites/Spr_movendo_direita/Spr_movendo_direita.yy",},
     {"name":"Spr_movendo_esquerda","order":4,"path":"sprites/Spr_movendo_esquerda/Spr_movendo_esquerda.yy",},
+    {"name":"Spr_municao","order":1,"path":"sprites/Spr_municao/Spr_municao.yy",},
     {"name":"Spr_parado_baicho","order":3,"path":"sprites/Spr_parado_baicho/Spr_parado_baicho.yy",},
     {"name":"Spr_parado_cima","order":2,"path":"sprites/Spr_parado_cima/Spr_parado_cima.yy",},
     {"name":"Spr_parado_esquerda","order":1,"path":"sprites/Spr_parado_esquerda/Spr_parado_esquerda.yy",},

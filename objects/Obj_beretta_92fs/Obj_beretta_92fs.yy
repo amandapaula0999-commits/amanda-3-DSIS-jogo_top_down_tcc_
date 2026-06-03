@@ -9,8 +9,8 @@
   "name":"Obj_beretta_92FS",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"armas",
+    "path":"folders/Objetos/armas.yy",
   },
   "parentObjectId":{
     "name":"Obj_pai_armas",
