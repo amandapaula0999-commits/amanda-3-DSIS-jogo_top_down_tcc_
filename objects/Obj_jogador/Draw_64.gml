@@ -14,3 +14,4 @@ draw_healthbar(_x1, _y1, _x2, _y2, _porcentagem, c_black, c_maroon,c_red, 0, tru
 // Desenha o texto em cima da barra
 draw_set_color(c_white);
 draw_text(_x1, _y1 - 20, "VIDA: " + string(hp));
+

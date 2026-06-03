@@ -24,3 +24,5 @@ ocupado = false;   //////Confere se tem alguma coisa na mão
 ////VARIAVEL DE FALA
 texto_fala = ""; /// fala
 timer_fala = 0; //// tempo de fala 
+
+cooldown_arremesso = 0; // Nova trava para controlar os arremessos um por um

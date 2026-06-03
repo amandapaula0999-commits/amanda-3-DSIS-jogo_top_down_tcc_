@@ -26,7 +26,7 @@
   },
   "name":"jogo top_daw tcc",
   "resources":[
-    {"id":{"name":"Obj_beretta_92fs","path":"objects/Obj_beretta_92fs/Obj_beretta_92fs.yy",},},
+    {"id":{"name":"Obj_beretta_92FS","path":"objects/Obj_beretta_92FS/Obj_beretta_92FS.yy",},},
     {"id":{"name":"Obj_cura_vida","path":"objects/Obj_cura_vida/Obj_cura_vida.yy",},},
     {"id":{"name":"Obj_faca","path":"objects/Obj_faca/Obj_faca.yy",},},
     {"id":{"name":"Obj_inimigo_teste","path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},},

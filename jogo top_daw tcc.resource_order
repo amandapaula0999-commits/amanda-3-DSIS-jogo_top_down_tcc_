@@ -7,7 +7,7 @@
     {"name":"itens","order":6,"path":"folders/sprites/itens.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"Obj_beretta_92fs","order":4,"path":"objects/Obj_beretta_92fs/Obj_beretta_92fs.yy",},
+    {"name":"Obj_beretta_92FS","order":4,"path":"objects/Obj_beretta_92FS/Obj_beretta_92FS.yy",},
     {"name":"Obj_cura_vida","order":7,"path":"objects/Obj_cura_vida/Obj_cura_vida.yy",},
     {"name":"Obj_faca","order":5,"path":"objects/Obj_faca/Obj_faca.yy",},
     {"name":"Obj_inimigo_teste","order":2,"path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},

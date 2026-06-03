@@ -154,6 +154,13 @@ else
 
 #endregion/////////////////
 
+// Diminui o cooldown de arremesso do kit
+if (cooldown_arremesso > 0) {
+    cooldown_arremesso -= delta_time / 1000000;
+} else {
+    cooldown_arremesso = 0;
+}
+
 // MORTE DO JOGADOR
 
 scr_jogador_controle_timers();
