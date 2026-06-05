@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_municao",
-    "path":"sprites/Spr_municao/Spr_municao.yy",
+    "name":"Sprite20",
+    "path":"sprites/Sprite20/Sprite20.yy",
   },
   "spriteMaskId":null,
   "visible":true,
