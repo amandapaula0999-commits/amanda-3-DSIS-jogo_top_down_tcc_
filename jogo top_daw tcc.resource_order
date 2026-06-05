@@ -27,12 +27,12 @@
     {"name":"Spr_movendo_cima","order":5,"path":"sprites/Spr_movendo_cima/Spr_movendo_cima.yy",},
     {"name":"Spr_movendo_direita","order":7,"path":"sprites/Spr_movendo_direita/Spr_movendo_direita.yy",},
     {"name":"Spr_movendo_esquerda","order":4,"path":"sprites/Spr_movendo_esquerda/Spr_movendo_esquerda.yy",},
-    {"name":"Spr_municao","order":1,"path":"sprites/Spr_municao/Spr_municao.yy",},
     {"name":"Spr_parado_baicho","order":3,"path":"sprites/Spr_parado_baicho/Spr_parado_baicho.yy",},
     {"name":"Spr_parado_cima","order":2,"path":"sprites/Spr_parado_cima/Spr_parado_cima.yy",},
     {"name":"Spr_parado_esquerda","order":1,"path":"sprites/Spr_parado_esquerda/Spr_parado_esquerda.yy",},
     {"name":"Spr_parede","order":3,"path":"sprites/Spr_parede/Spr_parede.yy",},
     {"name":"Spr_rit","order":4,"path":"sprites/Spr_rit/Spr_rit.yy",},
     {"name":"Spr_sombra","order":4,"path":"sprites/Spr_sombra/Spr_sombra.yy",},
+    {"name":"Sprite20","order":1,"path":"sprites/Sprite20/Sprite20.yy",},
   ],
 }
