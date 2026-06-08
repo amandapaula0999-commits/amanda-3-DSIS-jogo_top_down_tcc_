@@ -10,9 +10,12 @@ if (texto_fala != "")
 
 
 
-// Configura a cor do texto para amarelo (igual ao da sua foto) PODE ABAGAR 
+// PODE ABAGAR 
 draw_set_color(c_black);
 
 /*	pode ser apagado isso é meio que um DBG*/
 draw_text(400, 500, "Kits guardados: " + string(Obj_jogador.kits_na_mao));
+
+
+
 
