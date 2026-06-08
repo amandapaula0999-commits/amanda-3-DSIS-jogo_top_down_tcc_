@@ -118,3 +118,31 @@ function scr_gerenciar_kit_cura()
         speed = 0;
     }
 }
+
+
+#endregion///////////////
+
+
+#region/////////////CIXA DE PREGOS 
+
+function scr_gerenciar_caixa_pregos() 
+{
+    // Se o jogador estiver perto (menos de 40 pixels) e apertar "E"
+    if (distance_to_object(Obj_jogador) < 40 && keyboard_check_pressed(ord("E"))) 
+    {
+        // Checa se a arma existe na sala para poder entregar a munição
+        if (instance_exists(Obj_beretta_92FS)) 
+        {
+            Obj_beretta_92FS.caixas_municao += 1; // Adiciona 1 caixa direto na arma!
+            
+            // Opcional: Feedback visual/fala do jogador
+            Obj_jogador.texto_fala = "Peguei pregos!";
+            Obj_jogador.timer_fala = 45;
+        }
+        
+        instance_destroy(); // A caixa some do chão (foi coletada)
+    }
+}
+
+
+#endregion///////////////////////////
