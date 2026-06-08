@@ -58,9 +58,9 @@ function scr_gerenciar_kit_cura()
                 image_angle = direction; // O kit voa apontando para onde foi jogado
                 speed = 10; 
                 
-                visible = true; // <--- VOLTA A FICAR VISÍVEL QUANDO É LANÇADO!
+                visible = true; // visilve de novo 
                 
-                // Cria uma micro-trava para o próximo kit não sair junto
+                // Cria uma trava para o próximo kit não sair junto
                 Obj_jogador.cooldown_arremesso = 0.1; 
             }
 
@@ -127,20 +127,20 @@ function scr_gerenciar_kit_cura()
 
 function scr_gerenciar_caixa_pregos() 
 {
-    // Se o jogador estiver perto (menos de 40 pixels) e apertar "E"
+    // (menos de 40 pixels) e apertar "E"
     if (distance_to_object(Obj_jogador) < 40 && keyboard_check_pressed(ord("E"))) 
     {
         // Checa se a arma existe na sala para poder entregar a munição
         if (instance_exists(Obj_beretta_92FS)) 
         {
-            Obj_beretta_92FS.caixas_municao += 1; // Adiciona 1 caixa direto na arma!
+            Obj_beretta_92FS.caixas_municao += 1; // Adiciona 1 caixa direto na arma
             
-            // Opcional: Feedback visual/fala do jogador
-            Obj_jogador.texto_fala = "Peguei pregos!";
-            Obj_jogador.timer_fala = 45;
+            //fala do jogador PODE APAGAR  
+            Obj_jogador.texto_fala = "Peguei pregos!"; //ESSE 
+            Obj_jogador.timer_fala = 45;//ESSE
         }
         
-        instance_destroy(); // A caixa some do chão (foi coletada)
+        instance_destroy(); // A caixa some do chão 
     }
 }
 
