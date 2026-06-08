@@ -155,9 +155,12 @@ else
 #endregion/////////////////
 
 // Diminui o cooldown de arremesso do kit
-if (cooldown_arremesso > 0) {
+if (cooldown_arremesso > 0) 
+{
     cooldown_arremesso -= delta_time / 1000000;
-} else {
+} 
+else 
+{
     cooldown_arremesso = 0;
 }
 
