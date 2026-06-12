@@ -24,7 +24,7 @@ if (!atacando)
             sprite_index = Spr_ataque_espada;
             image_index = 0;
             
-            // Define o intervalo (delay) usando a variável que já existe no Pai
+            // Define o intervalo 
             daley_tiro = 1.5; 
 
             // Cria a caixa de dano na frente da faca
@@ -45,7 +45,7 @@ if (!atacando)
 #endregion//////////////////////
 
 
-else ///////NÃO ESTA SEMDO LIDA NO MOMENTO ARRUMMAR !!!!!!!!!!!!!
+else
 {
    //espera terminar a animação par continuar seguindo o mouse 
    
