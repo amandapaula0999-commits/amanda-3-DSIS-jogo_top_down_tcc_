@@ -6,9 +6,9 @@ var _dt = delta_time / 1000000; // tempo
 if (daley_tiro > 0)   daley_tiro -= _dt;   // Tempo entre balas (0.33)
 if (recarga_tiro > 0) recarga_tiro -= _dt; // Tempo de recarga (2.5)
 
-#region ///////////// recarga 
+#region /////////////RECARGA 
 
-// O JOGADOR APERTA "R" PARA RECARREGAR
+// R para recaregar 
 if (na_mao && keyboard_check_pressed(ord("R")) && !recarregando) 
 {
     // So recarega se nã tiver bala 
