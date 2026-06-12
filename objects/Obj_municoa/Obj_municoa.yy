@@ -11,7 +11,10 @@
     "name":"munição e cura",
     "path":"folders/Objetos/munição e cura.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_coletavel_pai",
+    "path":"objects/obj_coletavel_pai/obj_coletavel_pai.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

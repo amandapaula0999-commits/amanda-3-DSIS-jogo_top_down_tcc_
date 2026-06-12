@@ -5,3 +5,4 @@ if (tempo_de_vida > 6)
 { 
     instance_destroy(); 
 }
+

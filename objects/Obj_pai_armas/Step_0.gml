@@ -1,4 +1,4 @@
-#region////// PEGAR E LAGAR A ARMA 
+#region////// PEGAR E LAGAR A ARMA  
 
 if (!instance_exists(Obj_jogador)) return;
 
@@ -6,14 +6,38 @@ var _distancia = point_distance(x, y, Obj_jogador.x, Obj_jogador.y);
 var _tecla_pegar = keyboard_check_pressed(ord("E"));
 
 if (_distancia <= 70 && _tecla_pegar) 
-{ //distancia para pegar 
-    na_mao = !na_mao; // pega se estiver no chão larga se estiver na mão 
+{ 
+    // Não esta na mão, pegar 
+    if (!na_mao) 
+    {
+        na_mao = true;
+    }
+    // Esta na mão e aperta E 
+    else 
+    {
+        // Procura pelo objeto obj_coletavel_pai
+        var _item_perto = instance_nearest(Obj_jogador.x, Obj_jogador.y, obj_coletavel_pai);
+        var _distancia_item = 10000; // Valor alto inicial
+        
+        if (_item_perto != noone)
+        {
+            _distancia_item = point_distance(Obj_jogador.x, Obj_jogador.y, _item_perto.x, _item_perto.y);
+        }
+
+        // se não tiver nada em 70 pix no chão, larga 
+        if (_distancia_item > 70)
+        {
+            na_mao = false; // Larga a arma
+        }
+        // Se tiver ele tega 
+    }
 }
 
 // Se não estiver na mão, o código para aqui 
 if (!na_mao) return; 
 
 #endregion
+
 
 
 

@@ -9,6 +9,7 @@
     {"name":"itens","order":5,"path":"folders/sprites/itens.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_coletavel_pai","order":7,"path":"objects/obj_coletavel_pai/obj_coletavel_pai.yy",},
     {"name":"Obj_cura_vida","order":1,"path":"objects/Obj_cura_vida/Obj_cura_vida.yy",},
     {"name":"Obj_faca","order":1,"path":"objects/Obj_faca/Obj_faca.yy",},
     {"name":"Obj_inimigo_teste","order":2,"path":"objects/Obj_inimigo_teste/Obj_inimigo_teste.yy",},

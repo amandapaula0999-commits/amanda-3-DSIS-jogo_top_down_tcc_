@@ -16,5 +16,3 @@ if (estado != scr_inimigo_persegue)
     campo_visao(larg_visao, sprite_height); 
     draw_set_alpha(1);
 }
-
-

@@ -1,6 +1,7 @@
 // Colisão do Obj_tiro com o Obj_inimigo_
 if (instance_exists(other))
 {
+	
     
     
     with (other) 

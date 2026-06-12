@@ -1,7 +1,6 @@
 depth = -bbox_bottom /// o personagen fica na fente 
 
 
-
 #region ////////  MOVIMENTAÇÃO DO JOGADOR
 
 

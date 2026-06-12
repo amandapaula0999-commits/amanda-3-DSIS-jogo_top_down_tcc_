@@ -1,2 +1,1 @@
-
 scr_jogador_receber_dano(1); // O jogador perde 1 de vida 

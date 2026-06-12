@@ -10,7 +10,6 @@ if (texto_fala != "")
 
 
 
-
 // PODE ABAGAR 
 draw_set_color(c_black);
 

@@ -5,6 +5,7 @@ event_inherited();
 if (!na_mao) return; 
 
 
+
 #region /////////ATAQUE 
 
 
