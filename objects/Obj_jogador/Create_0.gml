@@ -22,6 +22,7 @@ ocupado = false;   //////Confere se tem alguma coisa na mão
 
 
 ////VARIAVEL DE FALA
+
 texto_fala = ""; /// fala
 timer_fala = 0; //// tempo de fala 
 

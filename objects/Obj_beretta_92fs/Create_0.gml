@@ -22,3 +22,4 @@ recarregando = false;
 recarga_tiro = 0;   // Acumulador para o tiro
 
 caixas_municao = 0; // Quantidade de caixas de prego guardadas nesta arma
+

@@ -15,6 +15,7 @@
 ////// não ser inpurado para dentro das paredes 
 ////// puchar o sistema de vida do inimigo e jogador para um script (v)
 ////// o inimigo desaparese de vagar quando morre (v)
+/////munição e kit de vida 
 
 
 /// para deichar o obj invisivel é so desmarcar a opicão no mesmo !!!!

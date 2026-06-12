@@ -18,6 +18,7 @@ if (!na_mao) return;
 #endregion
 
 
+
 #region////	 SEGUIR O JOGADOR 
 
 x = Obj_jogador.x;

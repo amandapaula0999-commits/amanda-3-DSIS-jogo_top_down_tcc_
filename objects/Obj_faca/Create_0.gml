@@ -1,5 +1,6 @@
 event_inherited(); 
 
+
 // Atributos da arma
 dano = 4;
 

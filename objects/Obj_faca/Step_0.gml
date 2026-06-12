@@ -7,6 +7,7 @@ if (!na_mao) return;
 
 #region /////////ATAQUE 
 
+
 if (!atacando) 
 {
     // Segue o mouse e usa o sprite parado

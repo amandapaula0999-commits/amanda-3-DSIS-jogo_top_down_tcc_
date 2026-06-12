@@ -9,6 +9,7 @@ depth = -bbox_bottom /// o personagen fica na fente
 var vetor_x = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var vetor_y = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
+
 //Velocidade base
 var velocidade = max_vel;
 

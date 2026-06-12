@@ -88,3 +88,4 @@ if (na_mao && mouse_check_button(mb_left) && !recarregando && daley_tiro <= 0)
 }
 
 #endregion
+

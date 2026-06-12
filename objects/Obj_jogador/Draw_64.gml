@@ -11,3 +11,4 @@ var _porcentagem = (hp / hp_max) * 100;
 
 draw_healthbar(_x1, _y1, _x2, _y2, _porcentagem, c_black, c_maroon,c_red, 0, true, true);
 
+

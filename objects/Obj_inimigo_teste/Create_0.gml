@@ -5,6 +5,7 @@ hp_atual = hp_max;
 
 dano = 3;
 
+
 #endregion//////////
 
 
