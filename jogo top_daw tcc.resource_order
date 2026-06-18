@@ -36,6 +36,6 @@
     {"name":"Spr_rit","order":4,"path":"sprites/Spr_rit/Spr_rit.yy",},
     {"name":"Spr_sombra","order":4,"path":"sprites/Spr_sombra/Spr_sombra.yy",},
     {"name":"Sprite20","order":1,"path":"sprites/Sprite20/Sprite20.yy",},
-    {"name":"Sprite21","order":9,"path":"sprites/Sprite21/Sprite21.yy",},
+    {"name":"Sprite21","order":6,"path":"sprites/Sprite21/Sprite21.yy",},
   ],
 }
