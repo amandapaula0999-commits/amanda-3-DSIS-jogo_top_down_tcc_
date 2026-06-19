@@ -24,7 +24,7 @@ var _hud_y = _altura_tela - (290 * _escala) - _margem;
 
 ////// DESENHAR O HEXÁGONO 
 // Desenha a sua sprite na tela de forma fixa
-draw_sprite_ext(Sprite21, 0, _hud_x, _hud_y, _escala, _escala, 0, c_white, 1);
+draw_sprite_ext(Spr_muchila, 0, _hud_x, _hud_y, _escala, _escala, 0, c_white, 1);
 
 #endregion/////////////
 

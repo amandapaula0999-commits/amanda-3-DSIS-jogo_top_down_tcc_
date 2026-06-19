@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object12",
+  "%Name":"Obj_muchila",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object12",
+  "name":"Obj_muchila",
   "overriddenProperties":[],
   "parent":{
     "name":"jogo top_daw tcc",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite21",
-    "path":"sprites/Sprite21/Sprite21.yy",
+    "name":"Spr_muchila",
+    "path":"sprites/Spr_muchila/Spr_muchila.yy",
   },
   "spriteMaskId":null,
   "visible":true,
