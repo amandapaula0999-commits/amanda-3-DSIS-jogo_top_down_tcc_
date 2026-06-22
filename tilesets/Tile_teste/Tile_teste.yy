@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"Tile_teste",
+  "autoTileSets":[
+    {"$GMAutoTileSet":"","%Name":"grama_clara","closed_edge":false,"name":"grama_clara","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[285,350,347,348,254,318,284,313,251,317,283,312,253,281,280,316,],},
+    {"$GMAutoTileSet":"","%Name":"grama_escura","closed_edge":false,"name":"grama_escura","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[413,443,441,381,379,412,0,380,377,0,414,382,445,444,446,410,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[430,367,365,366,303,335,0,397,301,0,333,399,302,461,463,334,],},
+  ],
+  "macroPageTiles":{
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
+  },
+  "name":"Tile_teste",
+  "out_columns":31,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"jogo top_daw tcc",
+    "path":"jogo top_daw tcc.yyp",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"Spr_tileset",
+    "path":"sprites/Spr_tileset/Spr_tileset.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":16,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":16,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":950,
+}
