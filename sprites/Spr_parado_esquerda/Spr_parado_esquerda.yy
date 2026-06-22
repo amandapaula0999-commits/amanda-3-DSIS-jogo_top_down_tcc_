@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"jogador",
-    "path":"folders/sprites/jogador.yy",
+    "name":"parado",
+    "path":"folders/sprites/jogador/parado.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
