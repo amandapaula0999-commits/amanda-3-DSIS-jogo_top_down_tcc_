@@ -80,6 +80,13 @@ repeat(abs(velv)) {
 #endregion/////////////
 
 
+#region// teste troca de room 
+
+
+
+#endregion////////////
+
+
 
 #region//////////// TROCA DE SPRITES
 
