@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"jogo top_daw tcc",
-    "path":"jogo top_daw tcc.yyp",
+    "name":"infeites_rooms_transicao",
+    "path":"folders/infeites_rooms_transicao.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

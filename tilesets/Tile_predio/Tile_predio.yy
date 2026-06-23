@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"Tile_teste",
+  "%Name":"Tile_predio",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"grama_clara","closed_edge":false,"name":"grama_clara","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[285,350,347,348,254,318,284,313,251,317,283,312,253,281,280,316,],},
     {"$GMAutoTileSet":"","%Name":"grama_escura","closed_edge":false,"name":"grama_escura","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[413,443,441,381,379,412,0,380,377,0,414,382,445,444,446,410,],},
@@ -11,19 +11,19 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Tile_teste",
+  "name":"Tile_predio",
   "out_columns":31,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"jogo top_daw tcc",
-    "path":"jogo top_daw tcc.yyp",
+    "name":"infeites_rooms_transicao",
+    "path":"folders/infeites_rooms_transicao.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Spr_tileset",
-    "path":"sprites/Spr_tileset/Spr_tileset.yy",
+    "name":"Spr_predio",
+    "path":"sprites/Spr_predio/Spr_predio.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

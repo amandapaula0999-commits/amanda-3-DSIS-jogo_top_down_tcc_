@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"Tile_cidade",
+  "%Name":"Tile_inicio",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"Tile_cidade",
+  "name":"Tile_inicio",
   "out_columns":24,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"jogo top_daw tcc",
-    "path":"jogo top_daw tcc.yyp",
+    "name":"infeites_rooms_transicao",
+    "path":"folders/infeites_rooms_transicao.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"Spr_tileCIDADE",
-    "path":"sprites/Spr_tileCIDADE/Spr_tileCIDADE.yy",
+    "name":"Spr_tile_inicio",
+    "path":"sprites/Spr_tile_inicio/Spr_tile_inicio.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

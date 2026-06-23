@@ -8,8 +8,8 @@
   "name":"Obj_procimo",
   "overriddenProperties":[],
   "parent":{
-    "name":"jogo top_daw tcc",
-    "path":"jogo top_daw tcc.yyp",
+    "name":"infeites_rooms_transicao",
+    "path":"folders/infeites_rooms_transicao.yy",
   },
   "parentObjectId":null,
   "persistent":false,
